@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    app:cardMaxElevation="18dp"
+    android:id="@+id/crd_id"
+    app:cardBackgroundColor="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:id="@+id/txt_message"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="5dp"
+            android:id="@+id/txt_datetime"
+            android:textColor="@color/off_black"
+            android:layout_margin="5dp"
+            />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_delete_forever"
+                android:backgroundTint="@color/off_black"
+                android:layout_gravity="right"
+                android:id="@+id/imgv_delete"
+                />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

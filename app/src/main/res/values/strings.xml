@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BooksMagic</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_soldbooks">Sold Books</string>
+    <string name="menu_home">Home</string>
+
+
+    <string name="default_notification_channel_id">One</string>
+    <string name="default_notification_channel_title">LibraryBooks</string>
+    <string name="str_srch">Search Here</string>
+    <string name="title_app">BooksMagic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_notification">Notification</string>
+    <string name="books">Books</string>
+    <string name="menu_updatedbooks">Updated Books</string>
+</resources>

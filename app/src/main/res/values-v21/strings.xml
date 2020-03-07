@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notification_channel_id">One</string>
+    <string name="default_notification_channel_title">LibraryBooks</string>
+    <string name="str_srch">Search Here</string>
+    <string name="title_app">BooksMagic</string>
+    <string name="menu_notification">Notification</string>
+    <string name="books">Books</string>
+    <string name="menu_soldbooks">Sold Books</string>
+    <string name="menu_updatedbooks">Updated Books</string>
+</resources>

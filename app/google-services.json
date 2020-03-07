@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "473394445688",
+    "firebase_url": "https://librarybooks-59a9c.firebaseio.com",
+    "project_id": "librarybooks-59a9c",
+    "storage_bucket": "librarybooks-59a9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473394445688:android:4b153d6cd8a76b6e525c8d",
+        "android_client_info": {
+          "package_name": "com.atixiansoftwares.librarybooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473394445688-hmvha9uj55onp45h9mef9ksikmsf0ssb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwnB_eGt_oNnymHonnyYTRvi36dt1yGhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473394445688-hmvha9uj55onp45h9mef9ksikmsf0ssb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

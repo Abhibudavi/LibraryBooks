@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bookdetails">
+
+   <!-- <fragment
+        android:id="@+id/nav_home"
+        android:name="com.atixiansoftwares.librarybooks.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />-->
+
+   <fragment
+        android:id="@+id/nav_bookdetails"
+        android:name="com.atixiansoftwares.librarybooks.ui.home.BookDetailsFragment"
+        android:label="@string/books"
+        tools:layout="@layout/fragment_book_details" />
+
+
+    <fragment
+        android:id="@+id/nav_updatedbooks"
+        android:name="com.atixiansoftwares.librarybooks.ui.home.ViewUpdatedBookFragment"
+        android:label="@string/menu_updatedbooks"
+        tools:layout="@layout/fragment_view_updated_book" />
+
+    <fragment
+        android:id="@+id/nav_soldbooks"
+        android:name="com.atixiansoftwares.librarybooks.ui.home.ViewSoldBookFragment"
+        android:label="@string/menu_soldbooks"
+        tools:layout="@layout/fragment_view_sold_book" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.atixiansoftwares.librarybooks.ui.home.NotificationFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notification" />
+
+
+    <!--<fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.atixiansoftwares.librarybooks.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.atixiansoftwares.librarybooks.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.atixiansoftwares.librarybooks.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.atixiansoftwares.librarybooks.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.atixiansoftwares.librarybooks.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />-->
+</navigation>

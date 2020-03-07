@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    app:cardMaxElevation="18dp"
+    android:id="@+id/crd_id"
+    app:cardBackgroundColor="@color/white"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:id="@+id/img_book"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:padding="2dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title : "
+                        android:textStyle="bold"
+                        android:id="@+id/txt_title_"
+                        android:textColor="@color/off_black"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:padding="4dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/txt_title"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Author : "
+                        android:textStyle="bold"
+                        android:id="@+id/txt_author_"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/off_black"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:padding="4dp"
+                        android:id="@+id/txt_author"
+                        android:textColor="@color/black"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll_sku"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKU : "
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:id="@+id/txt_sku_"
+                android:textColor="@color/off_black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:id="@+id/txt_sku"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                android:id="@+id/ll_pubdate"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Publication Date : "
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_date_of_publication_"
+                    android:textColor="@color/off_black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_date_of_publication"
+                    android:textColor="@color/black"
+                    />
+
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Binding Type : "
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_binding_"
+                    android:textColor="@color/off_black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_binding"
+                    android:textColor="@color/black"
+                    />
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lnl_price"
+            android:visibility="gone"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price : "
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_price_"
+                    android:textColor="@color/off_black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_price"
+                    android:textColor="@color/black"
+                    />
+
+
+
+        </LinearLayout>
+
+         <!--   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Binding Confirmation : "
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_confrimation_"
+                    android:textColor="@color/off_black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_binding_confrimation"
+                    android:textColor="@color/black"
+                    />
+
+
+            </LinearLayout>-->
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll_isbn"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ISBN : "
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_isbn_"
+                    android:textColor="@color/off_black"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:id="@+id/txt_isbn"
+                    android:textColor="@color/black"
+                    />
+
+
+
+        </LinearLayout>
+
+         <!--   <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@mipmap/book"
+                android:layout_gravity="right"
+                />-->
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
